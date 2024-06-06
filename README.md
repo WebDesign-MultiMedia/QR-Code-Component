@@ -5,8 +5,8 @@
 ![Desktop QR](DesktopVersion_Frontend-Mentor-QR-code-component.png)
 
 ## lINK
-- Solution URL: [http://127.0.0.1:5500/qr-code-component-main/index.html]
-- Live Site URL: []
+
+- Live Site URL: [https://webdesign-multimedia.github.io/QR-Code-Component/]
 
 ## Build with
 - Media Quiere - mobile and desktop responsive
