@@ -1,0 +1,48 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: #d6e1f0;
+  }
+
+  .border-Box{
+    background-color: #ffffff;
+    border-radius: 5%;
+    height: 30em;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  #QRimg{
+    height: auto;
+    width: 70%;
+    border-radius: 5%;
+    position: absolute;
+    right: 15%;
+    top: 8%;
+  }
+
+  #boxTitle{
+    position: absolute;
+    width: 70%;
+    top: 320px;
+    text-align: center;
+    left: 15%;
+  }
+
+  #BoxPara{
+    position: absolute;
+    width: 70%;
+    top: 405px;
+    text-align: center;
+    left: 15%;
+    color: #b8b5bd;
+    font-weight: bold;
+  }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
