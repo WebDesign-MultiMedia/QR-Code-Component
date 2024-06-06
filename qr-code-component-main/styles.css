@@ -23,19 +23,20 @@
   }
 
   #boxTitle{
-    position: absolute;
-    width: 70%;
-    top: 320px;
+    position: relative;
+    width: 90%;
+    top: 80vw;
     text-align: center;
-    left: 15%;
+    left: 5%;
+    font-size: 1.4em;
   }
 
   #BoxPara{
-    position: absolute;
-    width: 70%;
-    top: 405px;
+    position: relative;
+    width: 80%;
+    top: 80vw;
     text-align: center;
-    left: 15%;
+    left: 10%;
     color: #b8b5bd;
     font-weight: bold;
   }
@@ -45,4 +46,49 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: #d6e1f0;
+      }
+    
+      .border-Box{
+        background-color: #ffffff;
+        border-radius: 5%;
+        height: 33vw;
+        width: 20%;
+        position: absolute;
+        left: 40%;
+        top: 20%;
+      }
+    
+      #QRimg{
+        height: auto;
+        width: 90%;
+        border-radius: 5%;
+        position: absolute;
+        right: 5%;
+        top: 2%;
+      }
+    
+      #boxTitle{
+        position: relative;
+        width: 90%;
+        top: 18.5vw;
+        text-align: center;
+        left: 5%;
+        font-size: 1.4em;
+        color: black;
+      }
+    
+      #BoxPara{
+        position: relative;
+        width: 90%;
+        top: 19vw;
+        font-size: 1vw;
+        text-align: center;
+        left: 5%;
+        color: #b8b5bd;
+        font-weight: bold;
+      }
+
+    }
