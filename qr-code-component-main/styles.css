@@ -1,8 +1,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body{
-    background-color: #d6e1f0;
-  }
+    background: var(--Light-Grey, #D5E1EF);  }
 
   .border-Box{
     background-color: #ffffff;
@@ -48,8 +47,7 @@
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     body{
-        background-color: #d6e1f0;
-      }
+        background: var(--Light-Grey, #D5E1EF);      }
     
       .border-Box{
         background-color: #ffffff;
